@@ -51,6 +51,7 @@ def enter_move():
             print("Trun Number [",turn_count + 1, "]\nBelow are the choices that are left:\n",s_list_game)
             update_game(w)
             z = w[:]
+            turn_count += 1
             # if O wins
             o_win = ("O","O","O")
             x_win =("X","X","X")
