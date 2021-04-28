@@ -144,4 +144,4 @@ while not victory_for(board, "O") and not victory_for(board, "X"):
 if victory_for(board_start,"O"):
     print("You win")
 if victory_for(board_start,"X"):
-    print("You loose")
+    print("You lose.  HaHa <@:D")
